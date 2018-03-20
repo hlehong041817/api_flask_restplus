@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="f1497364-a8e5-45e6-9a7f-95b1aa21594a">
+    <synchronize>true</synchronize>
+    <jdbc-driver>sun.jdbc.odbc.JdbcOdbcDriver</jdbc-driver>
+    <jdbc-url>jdbc://</jdbc-url>
+    <libraries/>
+    <ssh-properties>
+      <enabled>false</enabled>
+      <proxy-host></proxy-host>
+      <proxy-port>22</proxy-port>
+      <user></user>
+      <use-password>true</use-password>
+      <password></password>
+      <private-key-path></private-key-path>
+      <passphrase></passphrase>
+      <remote-host></remote-host>
+      <remote-port></remote-port>
+      <local-port></local-port>
+    </ssh-properties>
+  </data-source>
+</component>
