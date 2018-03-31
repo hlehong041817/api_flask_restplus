@@ -1,0 +1,4 @@
+[submodule "swagger"]
+	path = swagger
+	url = https://github.com/hlehong041817/api_flask_swagger.git
+	branch = master

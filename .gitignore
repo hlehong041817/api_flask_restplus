@@ -3,4 +3,5 @@
 *.log
 *.cache
 __pycache__
-
+*.pyc
+/apis/__pycache__/*.pyc
