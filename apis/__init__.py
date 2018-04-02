@@ -1,3 +1,5 @@
+import os
+
 from flask_restplus import Api
 
 from .cat import api as cat_api
@@ -8,8 +10,10 @@ api = Api(
     title='XuMii',
     version='1.0',
     description='X User Matter into Information',
+    # static_folder=static_folder ,
+    # static_url_path='/swaggerui'
 )
 
-# api.add_namespace(cat_api)
-# api.add_namespace(dog_api)
+api.add_namespace(cat_api)
+api.add_namespace(dog_api)
 api.add_namespace(xummi_api)

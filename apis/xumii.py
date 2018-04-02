@@ -13,7 +13,7 @@ MessageDict = [
 ]
 
 
-@api.route('/')
+@api.route('')
 class MessageList(Resource):
     @api.doc('list_cats')
     @api.marshal_list_with(message_item)
